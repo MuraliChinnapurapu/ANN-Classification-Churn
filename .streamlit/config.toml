@@ -1,1 +1,6 @@
-
+# .streamlit/config.toml
+[server]
+# Specify a Python version known to be compatible with TensorFlow
+# Python 3.9 is a good starting point for TensorFlow compatibility.
+# You can also try "3.8" or "3.10" if 3.9 doesn't work.
+pythonVersion = "3.9"
